@@ -46,7 +46,7 @@ spec:
         kubernetes.io/os: windows
       containers:
       - name: apigpventacorta
-        image: us-central1-docker.pkg.dev/gke-poc-421401/docker-images-garantia-pacto/apigpventacorta:dev
+        image: southamerica-west1-docker.pkg.dev/gke-poc-421401/docker-images-garantia-pacto/apigpventacorta:dev
         ports:
           - containerPort: 80
         livenessProbe:      # Used by deployment controller
