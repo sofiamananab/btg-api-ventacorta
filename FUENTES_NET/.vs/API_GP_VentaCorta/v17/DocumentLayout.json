@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sofia\\OneDrive\\Escritorio\\garantiaPacto\\api-garantia-pacto-venta-corta\\FUENTES_NET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E13CED6-9AB6-4167-87AA-097C5C2927A0}|docker-compose.dcproj|c:\\users\\sofia\\onedrive\\escritorio\\garantiapacto\\api-garantia-pacto-venta-corta\\fuentes_net\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2E13CED6-9AB6-4167-87AA-097C5C2927A0}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597AA6A8-10A6-4E84-B209-DE2FD9F514EF}|API_GP_VentaCorta\\API_GP_VentaCorta.csproj|C:\\Users\\sofia\\OneDrive\\Escritorio\\garantiaPacto\\api-garantia-pacto-venta-corta\\FUENTES_NET\\api_gp_ventacorta\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{597AA6A8-10A6-4E84-B209-DE2FD9F514EF}|API_GP_VentaCorta\\API_GP_VentaCorta.csproj|solutionrelative:api_gp_ventacorta\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\garantiaPacto\\api-garantia-pacto-venta-corta\\FUENTES_NET\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\garantiaPacto\\api-garantia-pacto-venta-corta\\FUENTES_NET\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-06-04T04:33:06.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\garantiaPacto\\api-garantia-pacto-venta-corta\\FUENTES_NET\\API_GP_VentaCorta\\Dockerfile",
+              "RelativeDocumentMoniker": "API_GP_VentaCorta\\Dockerfile",
+              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\garantiaPacto\\api-garantia-pacto-venta-corta\\FUENTES_NET\\API_GP_VentaCorta\\Dockerfile",
+              "RelativeToolTip": "API_GP_VentaCorta\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-03T06:15:29.206Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

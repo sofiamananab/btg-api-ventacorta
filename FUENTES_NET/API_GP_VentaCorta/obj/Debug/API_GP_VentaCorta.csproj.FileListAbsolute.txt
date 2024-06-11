@@ -1,0 +1,110 @@
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\API_GP_VentaCorta.dll.config
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\API_GP_VentaCorta.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\API_GP_VentaCorta.pdb
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\Antlr3.Runtime.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\log4net.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\Microsoft.Web.Infrastructure.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\Newtonsoft.Json.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\Oracle.ManagedDataAccess.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Net.Http.Formatting.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.Helpers.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.Http.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.Http.WebHost.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.Mvc.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.Optimization.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.Razor.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.WebPages.Deployment.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.WebPages.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.WebPages.Razor.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\WebGrease.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\log4net.xml
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\Newtonsoft.Json.xml
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Net.Http.Formatting.xml
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.Helpers.xml
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.Http.xml
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.Http.WebHost.xml
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.Mvc.xml
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.Optimization.xml
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.Razor.xml
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.WebPages.xml
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.WebPages.Deployment.xml
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\System.Web.WebPages.Razor.xml
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\bin\Antlr3.Runtime.pdb
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\obj\Debug\API_GP_VentaCorta.csproj.AssemblyReference.cache
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\obj\Debug\API_GP_VentaCorta.csproj.CoreCompileInputs.cache
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\obj\Debug\API_GP_VentaCorta.csproj.CopyComplete
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\obj\Debug\API_GP_VentaCorta.dll
+e:\Proyectos\2023\29 GP VC simultaneas\Api carga\API_GP_VentaCorta\API_GP_VentaCorta\API_GP_VentaCorta\obj\Debug\API_GP_VentaCorta.pdb
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\API_GP_VentaCorta.dll.config
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\API_GP_VentaCorta.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\API_GP_VentaCorta.pdb
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\Antlr3.Runtime.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\log4net.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\Microsoft.Web.Infrastructure.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\Newtonsoft.Json.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\Oracle.ManagedDataAccess.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Net.Http.Formatting.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Helpers.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Http.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Http.WebHost.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Mvc.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Optimization.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Razor.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.WebPages.Deployment.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.WebPages.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.WebPages.Razor.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\WebGrease.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\log4net.xml
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\Newtonsoft.Json.xml
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Net.Http.Formatting.xml
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Helpers.xml
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Http.xml
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Http.WebHost.xml
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Mvc.xml
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Optimization.xml
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Razor.xml
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.WebPages.xml
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.WebPages.Deployment.xml
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.WebPages.Razor.xml
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\Antlr3.Runtime.pdb
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\obj\Debug\API_GP_VentaCorta.csproj.AssemblyReference.cache
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\obj\Debug\API_GP_VentaCorta.csproj.CoreCompileInputs.cache
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\obj\Debug\API_GP_VentaCorta.csproj.CopyComplete
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\obj\Debug\API_GP_VentaCorta.dll
+E:\Proyectos\GITHUB\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\obj\Debug\API_GP_VentaCorta.pdb
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\API_GP_VentaCorta.dll.config
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\API_GP_VentaCorta.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\API_GP_VentaCorta.pdb
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\Antlr3.Runtime.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\log4net.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\Newtonsoft.Json.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Net.Http.Formatting.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Helpers.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Http.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Http.WebHost.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Mvc.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Optimization.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Razor.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.WebPages.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.WebPages.Razor.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\WebGrease.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\log4net.xml
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\Newtonsoft.Json.xml
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Net.Http.Formatting.xml
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Helpers.xml
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Http.xml
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Http.WebHost.xml
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Mvc.xml
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Optimization.xml
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.Razor.xml
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.WebPages.xml
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\System.Web.WebPages.Razor.xml
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\bin\Antlr3.Runtime.pdb
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\obj\Debug\API_GP_VentaCorta.csproj.AssemblyReference.cache
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\obj\Debug\API_GP_VentaCorta.csproj.CoreCompileInputs.cache
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\obj\Debug\API_GP_V.91601F64.Up2Date
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\obj\Debug\API_GP_VentaCorta.dll
+C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta\obj\Debug\API_GP_VentaCorta.pdb

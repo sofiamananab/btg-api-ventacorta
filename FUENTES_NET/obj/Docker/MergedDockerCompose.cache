@@ -1,0 +1,16 @@
+name: dockercompose9218009732205287354
+services:
+  api_gp_ventacorta:
+    build:
+      context: C:\Users\sofia\OneDrive\Escritorio\garantiaPacto\api-garantia-pacto-venta-corta\FUENTES_NET\API_GP_VentaCorta
+      dockerfile: Dockerfile
+    image: apigpventacorta
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose9218009732205287354_default
