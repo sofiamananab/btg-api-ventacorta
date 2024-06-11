@@ -51,13 +51,13 @@ spec:
           - containerPort: 80
         livenessProbe:      # Used by deployment controller
           httpGet:
-            path: /
+            path: /health
             port: 80
           initialDelaySeconds: 120
           periodSeconds: 5
         readinessProbe:     # Used by Ingress/GCLB
           httpGet:
-            path: /
+            path: /healt
             port: 80
           initialDelaySeconds: 10
           periodSeconds: 5
