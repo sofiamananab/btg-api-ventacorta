@@ -33,7 +33,7 @@ kind: Deployment
 metadata:
   name: apigpventacorta
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: apigpventacorta
@@ -57,7 +57,7 @@ spec:
           periodSeconds: 5
         readinessProbe:     # Used by Ingress/GCLB
           httpGet:
-            path: /healt
+            path: /health
             port: 80
           initialDelaySeconds: 10
           periodSeconds: 5
