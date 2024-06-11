@@ -31,24 +31,21 @@ jobs:
     #
     # Authenticate to Google Cloud using workload identity federation
     #
+    # Authenticate to Google Cloud using service account key
     - id: 'auth'
-      name: 'Obtain access token by using workload identity federation'
-      uses: 'google-github-actions/auth@v0'
+      name: 'Obtain access token by using service account key'
+      uses: 'google-github-actions/auth@v1'
       with:
-        create_credentials_file: true
-        token_format: access_token
-        workload_identity_provider: projects/${{ env.PROJECT_NUMBER }}/locations/global/workloadIdentityPools/github-actions/providers/github-actions-oidc
-        service_account: github-actions-workflow@${{ env.PROJECT_ID }}.iam.gserviceaccount.com
-
-    - name: Connect to Artifact Registry
-      run: |-
-        echo ${{ steps.auth.outputs.access_token }} | docker login -u oauth2accesstoken --password-stdin https://${{ env.REPOSITORY_REGION }}-docker.pkg.dev
-
+        credentials_json: ${{ secrets.GCP_CREDENTIALS }}        
+                
     - name: Connect to GKE
-      uses: google-github-actions/get-gke-credentials@v0
+      uses: google-github-actions/get-gke-credentials@v1
       with:
         cluster_name: ${{ env.CLUSTER }}
         location: ${{ env.CLUSTER_ZONE }}
+
+    - name: Configure Docker for Artifact Registry
+      run: gcloud auth configure-docker ${{ env.REPOSITORY_REGION }}-docker.pkg.dev
 
     #
     # Build the .NET code
