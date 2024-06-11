@@ -1,0 +1,68 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: apigpventacorta
+  annotations:
+    cloud.google.com/neg: '{"ingress": false}' # Disable NEG
+
+spec:
+  ports:
+  - port: 80
+    targetPort: 80
+    protocol: TCP
+    name: http
+  selector:
+    app: apigpventacorta
+  type: NodePort
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: apigpventacorta
+spec:
+  defaultBackend:
+    service:
+      name: apigpventacorta
+      port:
+        number: 80
+        
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apigpventacorta
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: apigpventacorta
+  template:
+    metadata:
+      labels:
+        app: apigpventacorta
+    spec:
+      nodeSelector:
+        kubernetes.io/os: windows
+      containers:
+      - name: apigpventacorta
+        image: us-central1-docker.pkg.dev/gke-poc-421401/docker-images-garantia-pacto/apigpventacorta:dev
+        ports:
+          - containerPort: 80
+        livenessProbe:      # Used by deployment controller
+          httpGet:
+            path: /health
+            port: 80
+          initialDelaySeconds: 120
+          periodSeconds: 5
+        readinessProbe:     # Used by Ingress/GCLB
+          httpGet:
+            path: /health
+            port: 80
+          initialDelaySeconds: 10
+          periodSeconds: 5
+        resources:
+          limits:
+            memory: 1024Mi
+          requests:
+            memory: 256Mi
