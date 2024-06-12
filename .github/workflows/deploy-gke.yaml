@@ -66,7 +66,7 @@ jobs:
     # Build the Docker image and push it to Artifact Registry
     #
     - name: Create image tag
-      run: echo "IMAGE_TAG=${{ env.REPOSITORY_REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPOSITORY }}/${{ env.IMAGE }}:dev" >> $GITHUB_ENV
+      run: echo IMAGE_TAG="${{ env.REPOSITORY_REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPOSITORY }}/${{ env.IMAGE }}" >> $GITHUB_ENV
 
     - name: Lock image version in deployment.yaml
       shell: pwsh
@@ -76,11 +76,10 @@ jobs:
       run: docker build --tag "${{ env.IMAGE_TAG }}" FUENTES_NET/
 
     - name: Publish Docker image to Google Artifact Registry
-      run: docker push "${{ env.IMAGE_TAG }"
+      run: docker push "${{ env.IMAGE_TAG }}"
 
     #
     # Deploy to GKE
     #
     - name: Deploy to GKE
       run: kubectl apply -f FUENTES_NET/deployment.yaml
-  
