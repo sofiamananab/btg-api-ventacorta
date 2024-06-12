@@ -73,10 +73,10 @@ jobs:
       run: (Get-Content FUENTES_NET\deployment.yaml) -replace "CLOUDDEMO_IMAGE","${{ env.IMAGE_TAG }}" | Out-File -Encoding ASCII FUENTES_NET/deployment.yaml
 
     - name: Build Docker image
-      run: docker build --tag "${{ env.IMAGE_TAG }}" FUENTES_NET/
+      run: docker build --tag "${{ env.REPOSITORY_REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPOSITORY }}/${{ env.IMAGE }}" FUENTES_NET/
 
     - name: Publish Docker image to Google Artifact Registry
-      run: docker push "${{ env.IMAGE_TAG }}"
+      run: docker push "${{ env.REPOSITORY_REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPOSITORY }}/${{ env.IMAGE }}"
 
     #
     # Deploy to GKE
