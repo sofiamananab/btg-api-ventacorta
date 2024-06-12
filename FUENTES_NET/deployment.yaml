@@ -71,13 +71,13 @@ spec:
           - containerPort: 80
         livenessProbe:      # Used by deployment controller
           httpGet:
-            path: /
+            path: /getNemoValor?ID_VALORIZACION=1.0&ID_USUARIO=sample+string+1&FEC_CARGA=2024-06-13T04:33:16.2663854%2B09:00&FEC_PROCESO=2024-06-13T04:33:16.2663854%2B09:00&NOM_MERCADO=sample+string+2&MTO_BASE=1.0&MTO_VENTACORTA=1.0&MTO_GTIASIMULTANEA=1.0&MTO_FONDOGTIA=1.0&MTO_GTIACORRIENTE=1.0&NOM_NEMOTECNICO=sample+string+3&IND_ESTADO=sample+string+4&TOTAL_FILAS=1.0
             port: 80
           initialDelaySeconds: 120
           periodSeconds: 5
         readinessProbe:     # Used by Ingress/GCLB
           httpGet:
-            path: /
+            path: /getNemoValor?ID_VALORIZACION=1.0&ID_USUARIO=sample+string+1&FEC_CARGA=2024-06-13T04:33:16.2663854%2B09:00&FEC_PROCESO=2024-06-13T04:33:16.2663854%2B09:00&NOM_MERCADO=sample+string+2&MTO_BASE=1.0&MTO_VENTACORTA=1.0&MTO_GTIASIMULTANEA=1.0&MTO_FONDOGTIA=1.0&MTO_GTIACORRIENTE=1.0&NOM_NEMOTECNICO=sample+string+3&IND_ESTADO=sample+string+4&TOTAL_FILAS=1.0
             port: 80
           initialDelaySeconds: 10
           periodSeconds: 5
