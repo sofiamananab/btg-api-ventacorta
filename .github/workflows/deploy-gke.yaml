@@ -1,0 +1,63 @@
+name: Build and Deploy to GKE
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  PROJECT_ID: gke-poc-421401
+  PROJECT_NUMBER: 300481085503
+
+  CLUSTER: clouddemo-windows
+  CLUSTER_ZONE: us-central1-a
+
+  REPOSITORY: docker-images-garantia-pacto
+  REPOSITORY_REGION: southamerica-west1
+
+  IMAGE: apigpventacorta:dev
+
+jobs:
+  build:
+    runs-on: windows-2019  # Matches WINDOWS_LTSC in GKE
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    #
+    # Authenticate to Google Cloud using workload identity federation
+    #
+    # Authenticate to Google Cloud using service account key
+    - id: 'auth'
+      name: 'Obtain access token by using service account key'
+      uses: 'google-github-actions/auth@v1'
+      with:
+        credentials_json: ${{ secrets.GCP_CREDENTIALS }}        
+                
+    - name: Connect to GKE
+      uses: google-github-actions/get-gke-credentials@v1
+      with:
+        cluster_name: ${{ env.CLUSTER }}
+        location: ${{ env.CLUSTER_ZONE }}
+
+    - name: Configure Docker for Artifact Registry
+      run: gcloud auth configure-docker ${{ env.REPOSITORY_REGION }}-docker.pkg.dev
+
+    #
+    # Build the .NET code
+    #
+
+    #
+    # Build the Docker image and push it to Artifact Registry
+    #
+
+    #
+    # Deploy to GKE
+    #
+    - name: Deploy to GKE
+      run: kubectl apply -f FUENTES_NET/API_GP_VentaCorta/deployment.yaml
+  
