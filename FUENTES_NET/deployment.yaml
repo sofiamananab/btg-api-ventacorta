@@ -83,6 +83,6 @@ spec:
           periodSeconds: 30
         resources:
           limits:
-            memory: 8Gi
+            memory: 1024Mi
           requests:
-            memory: 4Gi
+            memory: 256Mi
