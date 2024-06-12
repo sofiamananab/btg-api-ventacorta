@@ -50,33 +50,33 @@ jobs:
     #
     # Build the .NET code
     #
-    - name: Setup MSBuild
-      uses: microsoft/setup-msbuild@v1
+    #- name: Setup MSBuild
+    #  uses: microsoft/setup-msbuild@v1
 
-    - name: Setup NuGet
-      uses: NuGet/setup-nuget@v1
+    #- name: Setup NuGet
+    #  uses: NuGet/setup-nuget@v1
 
-    - name: Restore NuGet packages
-      run: nuget restore FUENTES_NET/API_GP_VentaCorta.sln
+    #- name: Restore NuGet packages
+    #  run: nuget restore FUENTES_NET/API_GP_VentaCorta.sln
 
-    - name: Build solution
-      run: msbuild /t:Rebuild /p:Configuration=Release /p:DeployOnBuild=true /p:PublishProfile=FolderProfile /nologo FUENTES_NET/API_GP_VentaCorta.sln
+    #- name: Build solution
+    #  run: msbuild /t:Rebuild /p:Configuration=Release /p:DeployOnBuild=true /p:PublishProfile=FolderProfile /nologo FUENTES_NET/API_GP_VentaCorta.sln
 
     #
     # Build the Docker image and push it to Artifact Registry
     #
-    - name: Create image tag
-      run: echo "IMAGE_TAG=${{ env.REPOSITORY_REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPOSITORY }}/${{ env.IMAGE }}:$env:GITHUB_SHA" >> $GITHUB_ENV
+    #- name: Create image tag
+    #  run: echo "IMAGE_TAG=${{ env.REPOSITORY_REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPOSITORY }}/${{ env.IMAGE }}:$env:GITHUB_SHA" >> $GITHUB_ENV
 
-    - name: Lock image version in deployment.yaml
-      shell: pwsh
-      run: (Get-Content FUENTES_NET\deployment.yaml) -replace "CLOUDDEMO_IMAGE","${{ env.IMAGE_TAG }}" | Out-File -Encoding ASCII FUENTES_NET/deployment.yaml
+    #- name: Lock image version in deployment.yaml
+    #  shell: pwsh
+    #  run: (Get-Content FUENTES_NET\deployment.yaml) -replace "CLOUDDEMO_IMAGE","${{ env.IMAGE_TAG }}" | Out-File -Encoding ASCII FUENTES_NET/deployment.yaml
 
-    - name: Build Docker image
-      run: docker build --tag "${{ env.REPOSITORY_REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPOSITORY }}/${{ env.IMAGE }}" FUENTES_NET/
+    #- name: Build Docker image
+    #  run: docker build --tag "${{ env.REPOSITORY_REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPOSITORY }}/${{ env.IMAGE }}" FUENTES_NET/
 
-    - name: Publish Docker image to Google Artifact Registry
-      run: docker push "${{ env.REPOSITORY_REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPOSITORY }}/${{ env.IMAGE }}"
+    #- name: Publish Docker image to Google Artifact Registry
+    #  run: docker push "${{ env.REPOSITORY_REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPOSITORY }}/${{ env.IMAGE }}"
 
     #
     # Deploy to GKE
