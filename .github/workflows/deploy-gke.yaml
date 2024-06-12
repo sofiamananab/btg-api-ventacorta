@@ -70,7 +70,7 @@ jobs:
 
     - name: Lock image version in deployment.yaml
       shell: pwsh
-      run: (Get-Content applications\clouddemo\net4\deployment.yaml) -replace "CLOUDDEMO_IMAGE","${{ env.IMAGE_TAG }}" | Out-File -Encoding ASCII FUENTES_NET/deployment.yaml
+      run: (Get-Content FUENTES_NET\deployment.yaml) -replace "CLOUDDEMO_IMAGE","${{ env.IMAGE_TAG }}" | Out-File -Encoding ASCII FUENTES_NET/deployment.yaml
 
     - name: Build Docker image
       run: docker build --tag "${{ env.IMAGE_TAG }}" FUENTES_NET/
