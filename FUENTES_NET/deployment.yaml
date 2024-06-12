@@ -74,13 +74,13 @@ spec:
             path: /
             port: 80
           initialDelaySeconds: 120
-          periodSeconds: 5
+          periodSeconds: 30
         readinessProbe:     # Used by Ingress/GCLB
           httpGet:
             path: /
             port: 80
           initialDelaySeconds: 10
-          periodSeconds: 5
+          periodSeconds: 30
         resources:
           limits:
             memory: 1024Mi
