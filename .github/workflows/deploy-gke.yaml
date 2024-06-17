@@ -15,7 +15,7 @@ env:
   REPOSITORY: docker-images-garantia-pacto
   REPOSITORY_REGION: southamerica-west1
 
-  IMAGE: apigpventacorta:dev
+  IMAGE: apigpventacorta
 
 jobs:
   build:
